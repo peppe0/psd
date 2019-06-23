@@ -10,6 +10,7 @@ int main()
    MergeSort(vet,0,6);
   for(int i=0;i<MAX;i++)
   printf("%d ",vet[i]);
+ printf("\nfine\n");
 }
 
 void MergeSort(int * vet ,int st, int dim)
